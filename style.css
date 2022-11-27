@@ -1,0 +1,12 @@
+header{
+	background-color: gray;
+}
+
+.generic{
+	background-image: url(images\hero-bg.jpg);
+}
+
+.portfolio {
+	background-color: lightgray;
+
+}
