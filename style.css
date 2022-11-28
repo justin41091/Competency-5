@@ -1,12 +1,130 @@
+body{
+	font-family: "Helvetica";
+}
+
+html{
+	justify-content:center;
+	text-align: center;
+}
 header{
+	font-family: 'Kaushan Script', cursive;
+
 	background-color: gray;
 }
 
 .generic{
-	background-image: url(images\hero-bg.jpg);
+	background-image: url(images/hero-bg.jpg);
 }
 
-.portfolio {
-	background-color: lightgray;
 
+h3{
+	font-family: "Helvetica";
+
+}
+
+
+
+@media (min-width:50rem){
+.services{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 7rem 7rem 7rem;
+
+
+	}
+}
+
+}
+
+
+
+.business{
+ background-color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media ( min-width:50rem ) {
+
+.port{
+	background-color: lightgray;
+	padding: auto;
+}
+.portfolio{
+align-items: stretch;
+background-color: lightgray;
+display: grid;
+grid-gap: 2rem ;
+grid-template-columns: 1fr 1fr 1fr;
+margin: auto;
+padding: 2rem;
+
+text-align: center;
+;
+	}
+
+}
+
+
+
+.blueberries{
+	background-color: white;
+	height: 26rem;
+	text-align: center;
+	width: 25rem;
+}
+
+
+
+.toast{
+	background-color: white;
+	height: 26rem;
+	text-align: center;
+	width: 25rem;
+}
+
+
+
+.pear{
+	background-color: white;
+	height: 26rem;
+	text-align: center;
+	width: 25rem;
+}
+
+
+.burger{
+	background-color: white;
+	height: 26rem;
+	text-align: center;
+	width: 25rem;
+}
+
+
+.platter{
+	background-color: white;
+	height: 26rem;
+	text-align: center;
+	width: 25rem;
+}
+
+
+.cobbler{
+	background-color: white;
+	height: 26rem;
+	text-align: center;
+	width: 25rem;
 }
