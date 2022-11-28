@@ -6,25 +6,96 @@ html{
 	justify-content:center;
 	text-align: center;
 }
-header{
-	font-family: 'Kaushan Script', cursive;
 
-	background-color: gray;
+
+
+
+
+
+
+
+
+.pink{
+	color: hotpink;	
+	background-color: #3E3E3E;
+	font-family: 'Kaushan Script', cursive;	
+	font-size: .5rem;
 }
+
+@media(min-width:936px){
+header{
+	background-color: #3E3E3E;
+	display: grid;
+	grid-template-rows: 4rem;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	list-style: none;
+	}
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+
+
+@media(min-width:936px){
+.click{
+	color: white;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 4rem;
+	list-style: none;
+	max-width: 500px;
+	min-width: 400px;
+	padding: 1rem;
+	position: absolute;
+	right: .5rem;
+	width: 25%;
+	height: 18rem;}
+	}
+}
+
+
+.first{
+
+
+}
+
+
+
+
+
+
+
 
 .generic{
 	background-image: url(images/hero-bg.jpg);
+	background-attachment: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10rem 2rem;
 }
 
-
-h3{
-	font-family: "Helvetica";
+.top{
+	color: white;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 1rem;
+}
+.most{
+	color: white;
+	font-size: 3rem;
+	text-transform: uppercase;
 
 }
 
-
-
-@media (min-width:50rem){
+@media (min-width:936px){
 .services{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -53,18 +124,14 @@ h3{
 
 
 
-
-
-
-
-@media ( min-width:50rem ) {
+@media ( min-width:936px ) {
 
 .port{
 	background-color: lightgray;
 	padding: auto;
 }
 .portfolio{
-align-items: stretch;
+align-items: center;
 background-color: lightgray;
 display: grid;
 grid-gap: 2rem ;
@@ -128,3 +195,58 @@ text-align: center;
 	text-align: center;
 	width: 25rem;
 }
+
+
+
+@media(min-width:936px){
+footer{
+
+	display: grid;
+	grid-template-rows: 4rem;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	list-style: none;
+	}
+}
+
+.copy {
+	color: black;
+	font-size: .5rem;
+}
+.list {
+	display: grid;
+	grid-template-columns: repeat( 3, 1fr );
+	padding: 1rem;
+	position: absolute;
+	right: .5rem;
+	width: 25%;
+	height: 18rem;
+}
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+
+p{
+	color: gray;
+}
+
+
+.button1{
+background: limegreen;
+color: white;
+border: none;
+font-size: 1rem;
+
+
+text-transform: uppercase;	
+}
+
+
+
