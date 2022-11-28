@@ -87,7 +87,21 @@ a:active { text-decoration: none; }
 	color: white;
 	font-family: 'Kaushan Script', cursive;
 	font-size: 1rem;
+
 }
+
+
+
+.more
+a{
+	color: white;
+	background-color: limegreen;
+	margin: 0 auto;
+	padding: .5rem;
+
+}
+
+
 .most{
 	color: white;
 	font-size: 3rem;
@@ -238,15 +252,25 @@ p{
 }
 
 
-.button1{
-background: limegreen;
-color: white;
-border: none;
-font-size: 1rem;
 
+.services
+a{
+	color: white;
+	background-color: darkred;
+	margin: 0 auto;
+	padding: .5rem;
 
-text-transform: uppercase;	
+}
 }
 
 
 
+.more
+a{
+	color: white;
+	background-color: darkred;
+	margin: 0 auto;
+	padding: .5rem;
+
+}
+}
